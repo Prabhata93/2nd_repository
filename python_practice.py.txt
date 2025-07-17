@@ -1,0 +1,24 @@
+#python strings:
+
+### Camal cashing strings
+name="welcome to devops dileep"
+lenght=len(name)
+print(lenght)
+print("lenght",len(name))
+
+########
+name2="Welcome Hellow I Am Doing Good"
+print("capital:",name2.upper())
+print("nothing did ",name2)
+print("lower:",name2.lower())
+
+#asdfasdfasdf lkjlkfjasdf
+name3="cloud devops"
+print("first 5 letters",name3[0:5])
+
+name4=input("enter a name for name4")
+print("welcome",name4)
+
+age="10"
+age=int(age)
+print("age is",age+1)
