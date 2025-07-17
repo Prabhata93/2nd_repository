@@ -22,3 +22,31 @@ print("welcome",name4)
 age="10"
 age=int(age)
 print("age is",age+1)
+
+
+
+
+
+
+#DAY- 7, Date- 17/7/25
+
+#dictnary json
+
+import json
+
+this={ "brand" : "tata","car": "nano","year" : "2022"}
+print(this["year"])
+
+#---------
+
+json_str='''
+[
+    {"name":"John0", "age":30, "car":null},
+    {"name":"Johncena", "age":35, "car":"tata"}
+]
+'''
+
+data=json.loads(json_str)
+print(data[1]["car"])
+
+
