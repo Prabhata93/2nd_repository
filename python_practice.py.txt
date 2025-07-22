@@ -64,3 +64,30 @@ students='''
 data1=json.loads(students)
 print(data1[0]["name"])
 print(data1[3]["dept"])
+
+######
+
+max=[10,33,55,66,77,22,67,99,44,99]
+for i in max :
+    print ("i",i)
+    
+######
+
+count=1
+while count <=6:
+    print("count is",count)
+    count=count+1
+######
+
+def printname(name,name2):
+    print("hello name passed is",name,"name2",name2)
+
+printname("selva","devops")
+
+######
+
+def tosqare(number):
+    return number*number
+    #print(number*number)
+
+retun=tosqare(4)
