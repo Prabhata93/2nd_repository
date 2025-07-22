@@ -50,3 +50,17 @@ data=json.loads(json_str)
 print(data[1]["car"])
 
 
+
+students='''
+[
+    {"name":"ram", "age":17, "dept":"math"},
+    {"name":"laxman", "age":18, "dept":"physics"},
+    {"name":"roshan", "age":19, "dept":"chemestry"},
+    {"name":"krishna", "age":20, "dept":"biology"},
+    {"name":"shiva", "age":19, "dept":"english"}
+]
+'''
+
+data1=json.loads(students)
+print(data1[0]["name"])
+print(data1[3]["dept"])
