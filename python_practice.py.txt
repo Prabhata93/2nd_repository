@@ -91,3 +91,11 @@ def tosqare(number):
     #print(number*number)
 
 retun=tosqare(4)
+#######
+
+def tosqare(number):
+    return number*number
+    #print(number*number)
+
+retun=tosqare(4)
+print(retun)
